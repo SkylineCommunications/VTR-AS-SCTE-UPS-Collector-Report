@@ -47,6 +47,6 @@ jobs:
   #         # Stage deploy
   #         stage: Deploy
   #         # The API-key: generated in the DCP Admin app (https://admin.dataminer.services/) as authentication for a certain DataMiner System.
-  #         api-key: ${{ secrets.DATAMINER_DEPLOY_KEY }}
+  #         api-key: ${{ a }}
   #         # Id of the uploaded artifact
   #         artifact-id: ${{ needs.CI.outputs.artifact-id }}
