@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{2E323A14-7F80-491F-B0A4-0C26643DCBAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{F321C7F5-66CD-41EE-B210-9D036C3EB951}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{A4E7CE46-DB71-4B4C-BB8B-F70C8028A01B}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\readme.txt = Dlls\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{B3AC35DC-E6AA-4072-8AD5-427100F4883F}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\readme.txt = Documentation\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{A00AF17C-193D-4BBD-9681-6D825E8FE9AD}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationScript_ClassLibrary", "AutomationScript_ClassLibrary\AutomationScript_ClassLibrary.csproj", "{6A9EEAD4-B572-4D96-BC42-B9C267BC9B77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SCTE UPS Collector Report", "SCTE UPS Collector Report", "{BD6A648A-D422-4077-85DF-A4B59DBCDA56}"
+	ProjectSection(SolutionItems) = preProject
+		SCTE UPS Collector Report.xml = SCTE UPS Collector Report.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{ADD08909-1058-4EF6-B980-95D55D2064BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCTE UPS Collector Report_1", "SCTE UPS Collector Report_1\SCTE UPS Collector Report_1.csproj", "{116A6306-7222-49FD-A876-4F0009E7AFBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A9EEAD4-B572-4D96-BC42-B9C267BC9B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9EEAD4-B572-4D96-BC42-B9C267BC9B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9EEAD4-B572-4D96-BC42-B9C267BC9B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9EEAD4-B572-4D96-BC42-B9C267BC9B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116A6306-7222-49FD-A876-4F0009E7AFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116A6306-7222-49FD-A876-4F0009E7AFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116A6306-7222-49FD-A876-4F0009E7AFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116A6306-7222-49FD-A876-4F0009E7AFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A00AF17C-193D-4BBD-9681-6D825E8FE9AD} = {2E323A14-7F80-491F-B0A4-0C26643DCBAB}
+		{6A9EEAD4-B572-4D96-BC42-B9C267BC9B77} = {2E323A14-7F80-491F-B0A4-0C26643DCBAB}
+		{BD6A648A-D422-4077-85DF-A4B59DBCDA56} = {F321C7F5-66CD-41EE-B210-9D036C3EB951}
+		{ADD08909-1058-4EF6-B980-95D55D2064BC} = {BD6A648A-D422-4077-85DF-A4B59DBCDA56}
+		{116A6306-7222-49FD-A876-4F0009E7AFBC} = {ADD08909-1058-4EF6-B980-95D55D2064BC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1951E2F8-32D5-482A-978C-4BBE950F981A}
+	EndGlobalSection
+EndGlobal
