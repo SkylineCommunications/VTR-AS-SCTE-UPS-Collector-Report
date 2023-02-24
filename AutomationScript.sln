@@ -23,8 +23,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analy
 		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationScript_ClassLibrary", "AutomationScript_ClassLibrary\AutomationScript_ClassLibrary.csproj", "{6A9EEAD4-B572-4D96-BC42-B9C267BC9B77}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SCTE UPS Collector Report", "SCTE UPS Collector Report", "{BD6A648A-D422-4077-85DF-A4B59DBCDA56}"
 	ProjectSection(SolutionItems) = preProject
 		SCTE UPS Collector Report.xml = SCTE UPS Collector Report.xml
@@ -40,10 +38,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6A9EEAD4-B572-4D96-BC42-B9C267BC9B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A9EEAD4-B572-4D96-BC42-B9C267BC9B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A9EEAD4-B572-4D96-BC42-B9C267BC9B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A9EEAD4-B572-4D96-BC42-B9C267BC9B77}.Release|Any CPU.Build.0 = Release|Any CPU
 		{116A6306-7222-49FD-A876-4F0009E7AFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{116A6306-7222-49FD-A876-4F0009E7AFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{116A6306-7222-49FD-A876-4F0009E7AFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -54,7 +48,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A00AF17C-193D-4BBD-9681-6D825E8FE9AD} = {2E323A14-7F80-491F-B0A4-0C26643DCBAB}
-		{6A9EEAD4-B572-4D96-BC42-B9C267BC9B77} = {2E323A14-7F80-491F-B0A4-0C26643DCBAB}
 		{BD6A648A-D422-4077-85DF-A4B59DBCDA56} = {F321C7F5-66CD-41EE-B210-9D036C3EB951}
 		{ADD08909-1058-4EF6-B980-95D55D2064BC} = {BD6A648A-D422-4077-85DF-A4B59DBCDA56}
 		{116A6306-7222-49FD-A876-4F0009E7AFBC} = {ADD08909-1058-4EF6-B980-95D55D2064BC}
