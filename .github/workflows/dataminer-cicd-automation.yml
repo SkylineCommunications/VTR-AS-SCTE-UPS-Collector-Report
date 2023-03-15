@@ -27,7 +27,7 @@ jobs:
       sonarCloudProjectName: SkylineCommunications_Videotron-AS-SCTE-UPS-Collector-Report
       # The API-key: generated in the DCP Admin app (https://admin.dataminer.services/) as authentication for a certain DataMiner System.
     secrets:
-      api-key: none
+      api-key: ${{ DATAMINER_DEPLOY_KEY }}
       sonarCloudToken: ${{ secrets.SONAR_TOKEN }}
     
   # # Optional 0 or More CD Jobs as needed
